@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets Captcha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="createCaptcha()">
+    <form onsubmit="validateCaptcha()">
+      <div id="captcha">
+      </div>
+      <input type="text" placeholder="Captcha" id="cpatchaTextBox"/>
+      <button type="submit">Confirm</button>
+    </form>
+    <video id="background-video" autoplay loop muted poster="/assets/production ID-4151824.mp4">
+        <source src="/assets/production ID-4151824.mp4" type="video/mp4">
+      </video>
+    <script src="full.js"></script>
+    <div class="copyright">
+        <p>© 2023  Dev Noah kaptalai</p>
+    </div>
+  </body>
+</html>
